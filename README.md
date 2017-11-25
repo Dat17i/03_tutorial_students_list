@@ -37,6 +37,7 @@ The goal is to create a Students List and diplay it in the browser like this:
         return "index";
     }
 ````   
+This means that when the method is called, it expects an obejct of the type of Model to be passed in.
 
 * Add an Arraylist of Student to the model object with ````model.addAttribute()```` .
 ````java
