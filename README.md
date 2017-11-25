@@ -50,6 +50,54 @@ The goal is to create a Students List and diplay it in the browser like this:
 ````   
 
 ## Read the data on your index.html page
+In the index.html files between the two ````<body> </body>```` tags create a table 
+
+````html
+    <body>
+        <table>
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Enrollment Date</th>
+                <th>Cpr</th>
+                <th></th>
+            </tr>
+            </thead>
+        </table>
+    </body>
+````    
+This will create the header of the table.    
+
+Add the body of the table
+
+````html
+    <body>
+        <table>
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Enrollment Date</th>
+                <th>Cpr</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="student: ${students}">
+                <td th:text="${student.studentId}"/>
+                <td th:text="${student.firstName}"/>
+                <td th:text="${student.lastName}"/>
+                <td th:text="${student.enrollmentDate}"/> 
+            <td th:text="${student.cpr}"/>
+            <td></td>
+        </tr>
+        </tbody>
+        </table>
+    </body>
+````    
 
 
 
