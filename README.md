@@ -5,5 +5,5 @@ This is what we will cover in class today, and is equvalent to what i will show 
 
 The goal is to create a Students List and diplay it in the browser like this:
 
-<img src="/students_index.png" />
+<img src="/students_list.png" />
 
