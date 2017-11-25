@@ -49,7 +49,7 @@ The goal is to create a Students List and diplay it in the browser like this:
      }
 ````   
 
-## Read the data on your index.html page
+## Incorporate the data on your index.html page
 In the index.html files between the two ````<body> </body>```` tags create a table 
 
 ````html
