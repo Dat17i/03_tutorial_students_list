@@ -1,4 +1,4 @@
-# #6 Students list
+# #5 Students list
 Tutorial on creating a Students List page
 
 This is what we will cover in class today, and is equvalent to what i will show you from the blackborad.
