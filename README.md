@@ -10,7 +10,20 @@ The goal is to create a Students List and diplay it in the browser like this:
 ## Spring Boot Application
 * Before we start you need to have an up an running Spring Boot Application. You can see [here](https://github.com/StudentsAdministration/03_hello_spring) how to manage that.    
 
-## StudentsController
-* Create a StudentsController and from that return an index.html . You can see [here](https://github.com/StudentsAdministration/03_your_first_website) how to manage that.
+## StudentsController & index.html
+* Create a StudentsController and from that return an index.html . You can see [here](https://github.com/StudentsAdministration/03_your_first_website) how to manage that.  
+
+## The Model object
+* As parameter to your index method put in ```` Model model ````  .
+
+````java
+    @GetMapping("/")
+    public String index(Model model) {
+        return "index";
+    }
+````    
+
+
+
 
 
