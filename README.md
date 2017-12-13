@@ -102,5 +102,5 @@ Add the body of the table
 
 
 
-
+_<div align="right">&copy; clbo@kea.dk</div>_
 
