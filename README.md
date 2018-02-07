@@ -27,6 +27,7 @@ The goal is to create a Students List and diplay it in the browser like this:
 ```` 
 * Create Getters & Setters in the class 
 
+This students class is the model, so therefore you should create a model package and place the Student.java file in that package. 
 
 ## The Model object
 * As parameter to your index method put in ```` Model model ````  .
